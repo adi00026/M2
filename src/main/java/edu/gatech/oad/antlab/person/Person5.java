@@ -30,8 +30,12 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+		// This method is highly efficient because it was coded
+		// on a Sunday night.
+		if (input.length() < 3)
+			return input;
+		else return input.substring(2, input.length())
+			+ input.substring(0, 2);
 	}
 	
 	/**
